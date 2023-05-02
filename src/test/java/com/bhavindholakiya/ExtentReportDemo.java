@@ -46,7 +46,6 @@ public class ExtentReportDemo {
 
         reporter.config().setReportName("SkillDB - Smoke Test Report");
         reporter.config().setDocumentTitle("SkillDB - Test Result");
-        reporter.config().setTheme(Theme.STANDARD);
 
         extent.attachReporter(reporter);
         extent.setSystemInfo("QA Person", "Bhavin Dholakiya");

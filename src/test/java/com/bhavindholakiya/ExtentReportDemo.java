@@ -36,6 +36,8 @@ public class ExtentReportDemo {
             driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("edge")){
             driver = new EdgeDriver();
+            
+            
         }
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
